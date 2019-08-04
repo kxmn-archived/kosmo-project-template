@@ -1,0 +1,3 @@
+[submodule "lib/lunar"]
+	path = lib/lunar
+	url = https://kxmn@github.com/kxmn/lunar.git
