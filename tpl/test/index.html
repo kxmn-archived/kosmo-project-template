@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		body {background:#000}
+	</head>
+	<body>
+		<h1>Kosmo test</h1>
+		<h2>Variable</h2>
+		<pre>{%= test.content %}</pre>
+		<h2>Lua Code</h2>
+		{% getDate() %}
+		<pre>{% if test.content then %}{%= test.content %}{% end %}</pre>
+		<h2>Include</h2>
+		<p>{%include: 'someinclude.html'%}</p>
+
+
+	</body>
+</html>
