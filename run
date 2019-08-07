@@ -29,6 +29,6 @@ _KOSMO = (function()
 	return path
 end)()
 
-lunar = require 'lunar'
+aurora = require 'aurora'
 kosmo = require 'kosmo'
 dofile(_KOSMO.root..'/bin/'.._PROJECT..'/'.._RUN..'.lua');
