@@ -1,5 +1,5 @@
-[submodule "lib/lunar"]
-	path = lib/lunar
+[submodule "lib/aurora"]
+	path = lib/aurora
 	url = https://kxmn@github.com/kxmn/lunar.git
 [submodule "lib/kosmo"]
 	path = lib/kosmo
